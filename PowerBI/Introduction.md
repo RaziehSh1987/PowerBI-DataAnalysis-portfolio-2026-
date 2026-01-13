@@ -1,4 +1,5 @@
 # Session 0 ) 
+-  Concepts
 https://youtu.be/lNU6cc_1mzw?si=uE5zsCe89gmZQTwv
 
 <img width="623" height="293" alt="image" src="https://github.com/user-attachments/assets/2bbc9446-34da-4021-9982-1a604e80d7fe" />
