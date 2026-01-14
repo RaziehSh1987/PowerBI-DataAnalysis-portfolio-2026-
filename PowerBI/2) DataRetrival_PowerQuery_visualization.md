@@ -62,14 +62,7 @@
 
 # Tip:
 - To discover the repetitive row we can show the order_id in Table in powerBI >then  show  “list of all order_id “ and “ count “ format > then Sort the count
+<img width="538" height="475" alt="image" src="https://github.com/user-attachments/assets/f73f28de-dff5-4630-9b06-f17d0f764cf7" />
 
-
-
- 
-
-
-
-Tip:
-To discover the repetitive row we can show the order id in table > in “list of all order id “ and “ count “ format > then sort them
- 
-Ex:  How many sales orders of 10 are there for each product?
+# For the next session:
+- Ex:  How many sales orders of 10 are there for each product?
