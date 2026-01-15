@@ -12,7 +12,7 @@
 - These 2 table are the same but the row table is better:
 <img width="682" height="146" alt="image" src="https://github.com/user-attachments/assets/a0acaee4-6863-46a0-93ea-da0b6ca2a1cc" />
 - # Used for reporting. (Pvot)
-# Ex:
+# Ex (important):
 - we have to extract just 3 column that we want show as a Pivot table
 - then select the column that we want show as a header  like year
 - then select the column as a Value that we wan show the center of the table like Revenue
