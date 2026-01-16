@@ -8,6 +8,9 @@ https://youtu.be/0VtN3y6688w?si=EsNBh_2CdGqMeanF
 <img width="385" height="428" alt="image" src="https://github.com/user-attachments/assets/f09a9793-b61a-45d2-b107-1693b06b5f68" />
 <img width="283" height="185" alt="image" src="https://github.com/user-attachments/assets/7db7c82a-e9bd-4255-811b-07a0105a3a35" />
 <img width="320" height="315" alt="image" src="https://github.com/user-attachments/assets/71d7d5de-2382-4f0a-b50e-0c4ecb24b7f7" />
+# PowerBI > Matrix:
+<img width="117" height="156" alt="image" src="https://github.com/user-attachments/assets/e2f3b0f4-b785-4235-94f5-0d5a877a8053" />
+<img width="694" height="372" alt="image" src="https://github.com/user-attachments/assets/de92b900-1cb2-43a1-83e3-91bbba8147b8" />
 
 
 
