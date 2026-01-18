@@ -1,6 +1,7 @@
 # Session 5: 
 https://youtu.be/0VtN3y6688w?si=EsNBh_2CdGqMeanF
 
+
 # Merge query(Join):
 <img width="414" height="179" alt="image" src="https://github.com/user-attachments/assets/1678dbc1-d397-4dbe-8d25-e59989bf507b" />
 - Select the common column:
