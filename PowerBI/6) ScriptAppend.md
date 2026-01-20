@@ -30,7 +30,17 @@ https://youtu.be/ESyQ41JXZPg?si=4gx-5q1BhxC19xXH
          - Manage and correct the for example phone number
 - ex: clean the database that contain phone number
 
-
 - # Power Quey is used ⇒ Before coming our data to the System
 - # Dax is  used ⇒  After coming our data to the System
+
+# Data source Setting:
+<img width="399" height="194" alt="image" src="https://github.com/user-attachments/assets/d0e73ad5-56f7-40cf-8c68-2a0c466b9634" />
+or
+<img width="306" height="204" alt="image" src="https://github.com/user-attachments/assets/500a4864-97ee-4f9e-b2c8-52516312a00a" />
+- We see the sources that we have read the data  like Oracle,Excel:
+<img width="446" height="204" alt="image" src="https://github.com/user-attachments/assets/53c3a150-4255-4f75-ad91-d9211b902408" />
+- For example from  excel, and if we change the excel file path to another location we can use this option to Change Source path:
+- <img width="669" height="469" alt="image" src="https://github.com/user-attachments/assets/d6e17ba5-5a15-4a1c-a4d3-8bb27a7cc723" />
+
+
 
