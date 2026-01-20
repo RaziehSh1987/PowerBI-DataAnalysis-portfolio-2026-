@@ -15,3 +15,8 @@ https://youtu.be/ESyQ41JXZPg?si=4gx-5q1BhxC19xXH
 - #⇒ when we see the # , it means we want to do something
 - <img width="847" height="26" alt="image" src="https://github.com/user-attachments/assets/29139ed6-2b43-4e52-adb0-ffa4ab492bc8" />
 - All of the lines have , except the last line.
+
+
+# Power Quey is used ⇒ Before coming our data to the System
+# Dax is  used ⇒  After coming our data to the System
+
