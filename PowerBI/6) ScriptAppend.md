@@ -19,8 +19,8 @@ https://youtu.be/ESyQ41JXZPg?si=4gx-5q1BhxC19xXH
 <img width="703" height="126" alt="image" src="https://github.com/user-attachments/assets/ab46ea5d-63be-4214-86df-50ea781f6216" />
 - 
 
-# for cleaning the data we can copy all the related  M code from Advance Editor of a clean table  and then Paste into new table
+- # for cleaning the data we can copy all the related  M code from Advance Editor of a clean table  and then Paste into new table
 
-# Power Quey is used ⇒ Before coming our data to the System
-# Dax is  used ⇒  After coming our data to the System
+- # Power Quey is used ⇒ Before coming our data to the System
+- # Dax is  used ⇒  After coming our data to the System
 
