@@ -27,6 +27,7 @@ https://youtu.be/ESyQ41JXZPg?si=4gx-5q1BhxC19xXH
          - Duplicate data
          - Data type structure (whole number / text)
          - Split the data into some column
+         - <img width="287" height="49" alt="image" src="https://github.com/user-attachments/assets/538ec48f-dbd1-4819-a31a-c73a67c38c09" />
          - Manage and correct the for example phone number
 - ex: clean the database that contain phone number
 
@@ -41,6 +42,12 @@ or
 <img width="446" height="204" alt="image" src="https://github.com/user-attachments/assets/53c3a150-4255-4f75-ad91-d9211b902408" />
 - For example from  excel, and if we change the excel file path to another location we can use this option to Change Source path:
 - <img width="669" height="469" alt="image" src="https://github.com/user-attachments/assets/d6e17ba5-5a15-4a1c-a4d3-8bb27a7cc723" />
+- Also we can change the source in this way:
+<img width="803" height="412" alt="image" src="https://github.com/user-attachments/assets/431cd486-cd17-4810-bcb4-494011008764" />
+
+# The application of Data source setting:
+- We can just change the source to new data and apply all of the old operation  on new source (it’s important that the number of column and the name of columns are the same)
+
 
 
 
