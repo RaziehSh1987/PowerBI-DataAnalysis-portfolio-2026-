@@ -1,4 +1,4 @@
-# Session 6:
+# Session 6: CleaningData-ScriptAppend
 https://youtu.be/ESyQ41JXZPg?si=4gx-5q1BhxC19xXH
 
 - We have M language in the advance setting: 
