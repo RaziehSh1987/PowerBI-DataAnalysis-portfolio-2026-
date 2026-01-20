@@ -20,6 +20,16 @@ https://youtu.be/ESyQ41JXZPg?si=4gx-5q1BhxC19xXH
 - 
 
 - # for cleaning the data we can copy all the related  M code from Advance Editor of a clean table  and then Paste into new table
+     - What is cleaning data?
+         - We have to check:
+         - Null data
+         - Outlier
+         - Duplicate data
+         - Data type structure (whole number / text)
+         - Split the data into some column
+         - Manage and correct the for example phone number
+- ex: clean the database that contain phone number
+
 
 - # Power Quey is used ⇒ Before coming our data to the System
 - # Dax is  used ⇒  After coming our data to the System
