@@ -12,5 +12,5 @@ https://youtu.be/ESyQ41JXZPg?si=4gx-5q1BhxC19xXH
 
 
 - Source=  ⇒  its the source of the table
-- # ⇒ when we see the # , it means we want to do something
+- #⇒ when we see the # , it means we want to do something
 - All of the lines have , except the last line.
