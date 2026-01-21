@@ -105,6 +105,10 @@ ex:
 - # Web URL ⇒
   - to Open a URL 
 
+ # To change the slicer view ⇒
+ <img width="549" height="586" alt="image" src="https://github.com/user-attachments/assets/27812aee-22b4-44e0-92f7-fef63b9b2a6e" />
+
+
 # Ex: show the visual : 
 - Show the vertical  bar chart for Category of product  by revenue and by year and monthly
 - And another Donat visual for sum of revenue by region  that we can filter region by slicer
