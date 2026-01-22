@@ -45,3 +45,52 @@ https://youtu.be/gVmCt6Et2F0?si=o4vaBUj3eVRPlhoA
 - in this table we determined the relation between each fact and dimension with 1 , if there isn’t relation it’s red
 - <img width="801" height="107" alt="image" src="https://github.com/user-attachments/assets/b65b8dd8-cf32-4185-82c6-d9208b766c06" />
 
+Ex:in my tables ⇒
+<img width="462" height="217" alt="image" src="https://github.com/user-attachments/assets/740b0726-613d-4582-9d64-94ad8e9b26fb" />
+
+ - sales and count_activity are => fact (show these data)
+- Em , date => dimension (Filter by these data)
+- 
+- Modeling : If I want make relation between 2 tables without merge(join) function⇒ I have to Model the table:
+  - I have to create the separate tables for each shared dimension like: em and date ⇒we have to  REMOVE DUPLICATE  (because it’s as a table key for relation)
+<img width="607" height="589" alt="image" src="https://github.com/user-attachments/assets/f524799f-9c57-41e1-8536-ae8e674c6634" />
+
+- Then go to the Model view  and make connection between them
+- <img width="298" height="373" alt="image" src="https://github.com/user-attachments/assets/033b58a6-5849-46f6-bd8e-4052660a3476" />
+<img width="812" height="297" alt="image" src="https://github.com/user-attachments/assets/e453745a-f0da-4c61-be05-53d1ff147fe0" />
+
+- Now, in PowerBI we can create our report
+- <img width="341" height="345" alt="image" src="https://github.com/user-attachments/assets/b96aa22d-5bbd-403c-a802-be4a85ea693c" />
+
+
+# Modeling:
+-<img width="764" height="345" alt="image" src="https://github.com/user-attachments/assets/6516987a-c824-4659-b02a-6ad3bb2c3e0f" />
+- <img width="783" height="624" alt="image" src="https://github.com/user-attachments/assets/2dc0fba6-5ec0-4b3f-a6d9-f91067f40691" />
+
+- Many to one (*:1)
+- One to one (1:1)
+- <img width="627" height="170" alt="image" src="https://github.com/user-attachments/assets/bd9bd568-035d-4271-baee-e6810e6a6068" />
+  - For each (one) class ⇒ we have one prof
+- One to many (1:*)
+- <img width="227" height="380" alt="image" src="https://github.com/user-attachments/assets/6fd351aa-10b0-40a3-956c-5d431a793966" />
+
+- Many to Many (*:*)
+  - We don’t have in PowerBI ⇒ we have to break to *:1 or 1:*
+  - <img width="214" height="370" alt="image" src="https://github.com/user-attachments/assets/96ed73f7-772e-4d34-bd68-2cd3a706edee" />
+- We can disable the relation by double click on the relation line  and deactivate below checkbox
+<img width="341" height="149" alt="image" src="https://github.com/user-attachments/assets/51890963-1314-4a05-b102-19fca6b4b818" />
+- I have a single or both relation in Cross filter direction drop down menu:
+<img width="698" height="660" alt="image" src="https://github.com/user-attachments/assets/f1f5852d-0059-450a-9ff5-ef3cce6d46d6" />
+- If I enable Both filter direction for Phone_call table: 
+  - I can filter the Phone table and sale table (which are connected by the dimension ) in 2 Direction:
+  - Click on relation:
+  - <img width="646" height="274" alt="image" src="https://github.com/user-attachments/assets/7037b408-755b-47fb-9942-70b090c9fe45" />
+- Select Both:
+- <img width="488" height="220" alt="image" src="https://github.com/user-attachments/assets/583742fe-f430-4f25-908f-ddb8a0fff29e" />
+- Now we can active 2 direction filter between tables:
+<img width="681" height="225" alt="image" src="https://github.com/user-attachments/assets/3f4b5ae5-a209-473c-a58e-aa28127a4cda" />
+
+
+https://youtu.be/gVmCt6Et2F0?si=fkYkRpey2MV1GPSw
+
+
