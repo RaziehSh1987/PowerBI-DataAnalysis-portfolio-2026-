@@ -100,12 +100,18 @@ Ex:in my tables ⇒
 <img width="723" height="109" alt="image" src="https://github.com/user-attachments/assets/0a8bb654-4274-4771-bd61-40fb288d0e6c" />
   - Sale:
 <img width="822" height="94" alt="image" src="https://github.com/user-attachments/assets/611d6391-9677-481a-91ee-eedc925b232c" />
+
   - Budget:
+  - 
     <img width="314" height="82" alt="image" src="https://github.com/user-attachments/assets/f6467010-afc1-4744-82ba-cdbb9074a3ce" />
+    
 - We want this Dashboard:
+- 
 - <img width="757" height="378" alt="image" src="https://github.com/user-attachments/assets/85f6dba2-6435-4682-b1c9-4dcfac3b05d9" />
+
 <img width="426" height="385" alt="image" src="https://github.com/user-attachments/assets/ab06eb14-3912-4ff4-a38d-87008915a147" />
-- For DAte Barchart ⇒ x axis be Month name and each month be sale and budget
+
+- For Date Barchart ⇒ x axis be Month name and each month be sale and budget
 
 
 
