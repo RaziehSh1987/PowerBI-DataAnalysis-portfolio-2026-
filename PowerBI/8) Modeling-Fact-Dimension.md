@@ -64,7 +64,8 @@ Ex:in my tables ⇒
 
 
 # Modeling:
--<img width="764" height="345" alt="image" src="https://github.com/user-attachments/assets/6516987a-c824-4659-b02a-6ad3bb2c3e0f" />
+-<img width="590" height="296" alt="image" src="https://github.com/user-attachments/assets/e0f9ac00-e102-4fa3-898f-b1675313bca1" />
+
 - <img width="783" height="624" alt="image" src="https://github.com/user-attachments/assets/2dc0fba6-5ec0-4b3f-a6d9-f91067f40691" />
 
 - Many to one (*:1)
