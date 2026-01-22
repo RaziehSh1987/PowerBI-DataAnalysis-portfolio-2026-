@@ -91,7 +91,27 @@ Ex:in my tables ⇒
 - Now we can active 2 direction filter between tables:
 <img width="681" height="225" alt="image" src="https://github.com/user-attachments/assets/3f4b5ae5-a209-473c-a58e-aa28127a4cda" />
 
+- If we doen’t have relation between tables they can’t filter  
+- Note: When we have a 2Direction relationship between Dim-em (and ultimately the sale table) and the PhoneCall table ⇒ we cannot set a new 2Direction between the SALE table and Dim_em (and ultimately the PhoneCall table) ⇒ because we will create a loop which is against the PowerBI logical relationship.
 
-https://youtu.be/gVmCt6Et2F0?si=fkYkRpey2MV1GPSw
+# Ex:
+- We have 3 tables:
+  - Calender:
+<img width="723" height="109" alt="image" src="https://github.com/user-attachments/assets/0a8bb654-4274-4771-bd61-40fb288d0e6c" />
+  - Sale:
+<img width="822" height="94" alt="image" src="https://github.com/user-attachments/assets/611d6391-9677-481a-91ee-eedc925b232c" />
+  - Budget:
+    <img width="314" height="82" alt="image" src="https://github.com/user-attachments/assets/f6467010-afc1-4744-82ba-cdbb9074a3ce" />
+- We want this Dashboard:
+- <img width="757" height="378" alt="image" src="https://github.com/user-attachments/assets/85f6dba2-6435-4682-b1c9-4dcfac3b05d9" />
+<img width="426" height="385" alt="image" src="https://github.com/user-attachments/assets/ab06eb14-3912-4ff4-a38d-87008915a147" />
+- For DAte Barchart ⇒ x axis be Month name and each month be sale and budget
+
+
+
+
+    
+
+
 
 
