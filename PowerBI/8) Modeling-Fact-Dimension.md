@@ -113,6 +113,68 @@ Ex:in my tables ⇒
 
 - For Date Barchart ⇒ x axis be Month name and each month be sale and budget
 
+# Answer:
+The CORRECT model (what you should do instead)
+✅ Proper Star Schema (this is the key fix)
+You need ONE date dimension only.
+Final Model:
+
+<img width="460" height="426" alt="image" src="https://github.com/user-attachments/assets/b1be250c-f04d-4a84-bafd-5342efadc3af" />
+
+
+ Required fixes (step-by-step)
+🔧 1. Calendar table
+Ensure it has:
+Date
+
+
+Year
+
+
+MonthNum (1–12)
+
+
+MonthName
+
+
+Then:
+Sort MonthName → by MonthNum
+
+
+
+🔧 2. Relationships
+Set:
+Calendar[Date] → Sale[Order Date] (1:* single direction)
+
+
+Calendar[Date] → Budget[Date] (1:* single direction)
+
+
+🔧 3. Measures (VERY IMPORTANT)
+Do NOT use implicit sums.
+Create explicit measures:
+
+<img width="278" height="205" alt="image" src="https://github.com/user-attachments/assets/bd237efd-d692-491b-9725-ed6faba98528" />
+
+
+🔧 4. Visual
+Use:
+X-axis: Calendar[MonthName]
+
+
+Legend (optional): Calendar[Year]
+
+
+Values:
+
+
+Total Revenue
+
+
+Total Budget
+
+
+If you want one year only → add Year slicer.
 
 
 
