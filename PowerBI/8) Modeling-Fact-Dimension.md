@@ -176,10 +176,12 @@ Total Budget
 
 If you want one year only → add Year slicer.
 
-<img width="934" height="605" alt="image" src="https://github.com/user-attachments/assets/4b9a7761-89af-44a6-aff7-212ee86af0d4" />
 
 
 <img width="993" height="743" alt="image" src="https://github.com/user-attachments/assets/24182cc1-5d2c-4a1e-b924-d1bdd5b34f40" />
+
+<img width="934" height="605" alt="image" src="https://github.com/user-attachments/assets/4b9a7761-89af-44a6-aff7-212ee86af0d4" />
+
 
 
     
