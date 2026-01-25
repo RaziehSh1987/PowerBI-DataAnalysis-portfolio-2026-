@@ -8,7 +8,7 @@
 - PowerBI/ 8) Modeling, Fact, Dimension.md
 - PowerBI/ 9) Fact, Dimension, DataWareHouse, BusMatrix.md
 - PowerBI/ 10) Data visualization,Menu,bookmarks,filters, Mobile_layout,Publish,Slicer_sync.md
-- PowerBI/ 11)
+- PowerBI/ 11) DataVisualization-Theme-Pbix_File_website-Font-Canvas-Layout_mode.md
 - PowerBI/ 12)
  
 
