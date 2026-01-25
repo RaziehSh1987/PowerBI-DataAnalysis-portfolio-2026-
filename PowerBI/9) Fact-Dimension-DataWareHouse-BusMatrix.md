@@ -57,6 +57,10 @@ like:
 <img width="705" height="711" alt="image" src="https://github.com/user-attachments/assets/fdb1b522-12af-46df-b0e9-f64c943d87de" />
 - Enabling Data Label for each column: 
 <img width="506" height="548" alt="image" src="https://github.com/user-attachments/assets/07adeb85-4ab7-4452-827f-a4ae36ebe7e2" />
+
 - Note: when we filter the province, it doesn’t affect on the target fact ⇒ because target table doesn’t have the province column ⇒ so there isn’t relation between 2 tables
+
+- <img width="780" height="465" alt="image" src="https://github.com/user-attachments/assets/0bd41954-8a7c-4c66-b568-690120626516" />
+
 
 
