@@ -1,32 +1,34 @@
-Session 16) ReadSQL-ReadFolder-Dax(sum-avg-count)-comment
+# Session 16) ReadSQL-ReadFolder-Dax(sum-avg-count)-comment
 https://youtu.be/VPTL2OoS-KA?si=CfNNR08h_jz_Xs7X
+
 # Read from SQL:
+<img width="387" height="503" alt="image" src="https://github.com/user-attachments/assets/a1200c1f-f430-45d8-87b6-8d5ef53b7485" />
+- Enter IP Server :
+ - If I insert “.” dot ⇒ it means , read from the SQL which is on my system, 
+ - Otherwise⇒ we have to enter IP Server
+ - <img width="602" height="268" alt="image" src="https://github.com/user-attachments/assets/befcaa63-d81c-421d-a827-664dfa50da62" />
+ - Enter Username & Password Of SQL > connect
+ - # Note:  If we have MySQL or Oracle or.. : 
+   - We have to install an application to connect PowerBI to our Datbase
+   - For example we search:
+   - <img width="631" height="514" alt="image" src="https://github.com/user-attachments/assets/53da712c-56a3-466b-a93a-309581892eb2" />
+   - Open ⇒
+   - <img width="500" height="173" alt="image" src="https://github.com/user-attachments/assets/21c4e773-f7dd-4756-bf51-94f2e77e3d29" />
+   <img width="896" height="496" alt="image" src="https://github.com/user-attachments/assets/2fe36b11-9394-4c10-a39d-6dc8c663447b" />
+   - Now, we can get help of Microsoft website to connect to powerBI
 
-Enter IP Server :
-If I insert “.” dot ⇒ it means , read from the SQL which is on my system, 
-Otherwise⇒ we have to enter IP Server
-> OK
-Enter Username & Password Of SQL > connect
-# Note:  If we have MySQL or Oracle or.. : 
-We have to install an application to connect PowerBI to our Datbase
-For example we search:
-
-Open ⇒
-
-
-Now, we can get help of Microsoft website to connect to powerBI
 
 # Read Folder of excel files (Combine) :
-Home > Get Data > Folder > connect > select folder> ok> Combine & Load >
-We define our sample that we want  combine all of the files in this format with these columns:
-
-> select desired table> ok
-Note: we can Change the Sample file later:
-
-Now, if we add another file with this format (sample file) in this folder ⇒ Power Bi read the data automatically  and append to end of the files
-If 2 tables don’t be the same ⇒ powerBI filled the column by Null Value:
-
-But e can have a setting to append just a tables which has exactly the same columns
+- Home > Get Data > Folder > connect > select folder> ok>
+- # Combine & Load >
+- We define our sample that we want  combine all of the files in this format with these columns:
+- <img width="667" height="526" alt="image" src="https://github.com/user-attachments/assets/47ed093f-eed4-46af-8cba-f985ae998a72" />
+- > select desired table> ok
+- Note: we can Change the Sample file later:
+- <img width="749" height="558" alt="image" src="https://github.com/user-attachments/assets/683db704-4eba-4861-8361-577c7b465020" />
+- If 2 tables don’t be the same ⇒ powerBI filled the column by Null Value:
+- <img width="799" height="348" alt="image" src="https://github.com/user-attachments/assets/2eb146fd-c949-4c80-a281-f46ef20dfe54" />
+- But e can have a setting to append just a tables which has exactly the same columns
 
 
 # DAX:
