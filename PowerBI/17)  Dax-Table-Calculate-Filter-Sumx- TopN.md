@@ -44,19 +44,31 @@
 - Answer:
   - First way:
   - 1)Make Measure
-  - 2) sum(revenue)
-  - 3) make a filter on North and South
+  - 2)sum(revenue)
+  - 3)make a filter on North and South
       - Filter(tbSale , Region in {“North”,”South”} )
-  - 4) apply this Measure on All rows with⇒ Calculate
-  - 5) add this measure to Table Visual as a column
+  - 4)apply this Measure on All rows with⇒ Calculate
+  - 5)add this measure to Table Visual as a column
    <img width="810" height="380" alt="image" src="https://github.com/user-attachments/assets/5a14b29e-2b84-4c8f-bf75-9025e1b8a848" />
 - Sale amount for 5 Top product
+- answer:
+- <img width="611" height="621" alt="image" src="https://github.com/user-attachments/assets/44dd9880-0d0a-499e-aa31-32daa3075004" />
 
-# TopN:
+
+- # TopN:
 <img width="772" height="101" alt="image" src="https://github.com/user-attachments/assets/50ac7ff6-a56a-46cf-94b2-4be57d1c9eb0" />
- <img width="644" height="643" alt="image" src="https://github.com/user-attachments/assets/84628fad-73bd-4a41-b49a-8ec29b53adab" />
- 
+- # Value:
+- <img width="767" height="190" alt="image" src="https://github.com/user-attachments/assets/dc7377da-4361-46c5-b0ab-34e75878d2c4" />
+- <img width="717" height="662" alt="image" src="https://github.com/user-attachments/assets/952b086c-b56d-4733-b1bc-6b5a28cda9b1" />
+- <img width="629" height="252" alt="image" src="https://github.com/user-attachments/assets/4cd3a854-f4c8-49a5-8c42-7fa32c843583" />
+- <img width="669" height="574" alt="image" src="https://github.com/user-attachments/assets/b239e8b4-4825-4559-876a-7a8510a67fa1" />
+- <img width="794" height="485" alt="image" src="https://github.com/user-attachments/assets/f4d0f491-1aed-4f4a-8cef-925c075f6c5d" />
+
+
 - Sale amount for Green tea, Coffee, Chai , between 2014 until 2016
+- <img width="1380" height="546" alt="image" src="https://github.com/user-attachments/assets/dd53ad80-b707-4fed-ba06-fb059cb00acc" />
+<img width="756" height="275" alt="image" src="https://github.com/user-attachments/assets/444542e4-3b5a-42e7-afcd-aa5fbe1de669" />
+
 - The best sale for each company  for product in these  group : 
   - Baked & Mixes
   - Beverages
