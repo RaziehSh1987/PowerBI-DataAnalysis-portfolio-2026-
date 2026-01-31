@@ -1,4 +1,4 @@
-# Session 17) Dax-Table-Calculate-Filter-Sumx- TopN
+# Session 17) Dax-Table-Calculate-Filter-Sumx- TopN- Value-YOY
 - https://youtu.be/upqexDr0c3c?si=oShu5gO8EklRVNzL
 
 # There are 2 important  KPI (we can learn more in google):
