@@ -40,10 +40,11 @@
   - Make a Measure:
   - # Divide or "/":
   - 12/4 or divide(12,4)
-  - <img width="866" height="286" alt="image" src="https://github.com/user-attachments/assets/3501e57b-7a5d-4454-a5fa-fa40c6ef20c8" />
+  - <img width="643" height="145" alt="image" src="https://github.com/user-attachments/assets/f56f8c39-22bc-4d7b-a19a-68d949783f38" />
   - Add ⇒ Table visual with this columns ⇒ product_name / sum(revenue) / SaleShare
   - Select SaleShare > format menu >   format=percentage
-    <img width="1475" height="683" alt="image" src="https://github.com/user-attachments/assets/b28ef4fb-26a7-42f5-a59d-fcff3fd29f9a" />
+  <img width="1219" height="641" alt="image" src="https://github.com/user-attachments/assets/88612966-4d64-46fb-8cce-968cbe887ee8" />
+
 
 
 
