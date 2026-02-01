@@ -38,7 +38,8 @@
 - Create this table with DAX :product name / sale amount/Sales share
 - Answer:
   - Make a Measure:
-  - # Divide:
+  - # Divide or "/":
+  - 12/4 or divide(12,4)
   - <img width="866" height="286" alt="image" src="https://github.com/user-attachments/assets/3501e57b-7a5d-4454-a5fa-fa40c6ef20c8" />
   - Add ⇒ Table visual with this columns ⇒ product_name / sum(revenue) / SaleShare
   - Select SaleShare > format menu >   format=percentage
