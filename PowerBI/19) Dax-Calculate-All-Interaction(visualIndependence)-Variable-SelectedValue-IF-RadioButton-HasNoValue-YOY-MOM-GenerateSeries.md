@@ -1,4 +1,4 @@
-# Session 19)  - Dax-Calculate-LeftToRight-All(= remove filter)-Edit Interaction(visual Independence)-
+# Session 19)  - Dax-Calculate-LeftToRight-All(= remove filter)-Edit Interaction(visual Independence)-Variable-SelectedValue-IF-RadioButton-HasNoValue-YOY-MOM-GenerateSeries
 https://youtu.be/0WauCkI1O9k?si=pweJDszTx9CLibvP
 
 # Calculate:
@@ -57,6 +57,72 @@ https://youtu.be/0WauCkI1O9k?si=pweJDszTx9CLibvP
 - <img width="630" height="399" alt="image" src="https://github.com/user-attachments/assets/3399ce6b-a074-4f86-a8fc-67fd62e6d0d6" />
 
 # GenerateSeries(from,to,step) using DAX:
+- <img width="375" height="190" alt="image" src="https://github.com/user-attachments/assets/fa5f7f1c-6073-4283-8476-6efffb364fe3" />
+- New Table >
+- <img width="759" height="140" alt="image" src="https://github.com/user-attachments/assets/e52a157b-bc5b-4836-928d-afe82e91d4cc" />
+- <img width="167" height="539" alt="image" src="https://github.com/user-attachments/assets/7c9fcefa-90a3-42d9-945e-7abb3d78615c" />
+
+# SelectedValue  &  IF:
+- To define default value for for example Slicer when we don’t select any option:
+- <img width="1532" height="521" alt="image" src="https://github.com/user-attachments/assets/1615dc8a-82e4-4d1d-b55a-bc273cf7781e" />
+- New Measure >
+- <img width="651" height="74" alt="image" src="https://github.com/user-attachments/assets/eb98d431-2fb1-4f1e-ab6e-ef7164bfcc35" />
+- Means ⇒ if (any visual like slicer ⇒ selected a year option) >  then show the year value > else show number one (1)
+- Or we can write a text:
+- <img width="809" height="111" alt="image" src="https://github.com/user-attachments/assets/8722d8db-9697-4a17-9d50-f6dc7b3688f6" />
+- Now we want to write more professional with IF:
+- <img width="783" height="278" alt="image" src="https://github.com/user-attachments/assets/c77e2f4e-ae52-40ae-a938-6bb869de91bd" />
+- <img width="1716" height="685" alt="image" src="https://github.com/user-attachments/assets/b31743e9-44ba-4bd6-b75e-3b515eef67b4" />
+- <img width="632" height="645" alt="image" src="https://github.com/user-attachments/assets/4a286989-456a-494a-b205-f97c8d53a0e6" />
+- # Radio Button(single selection):
+- If we want to only allow one option to be selected (like as a Radio button): enable ⇒ Single select
+- <img width="551" height="624" alt="image" src="https://github.com/user-attachments/assets/8d082afe-c56c-46eb-8131-9e25cb1b0399" />
+- Or  With DAX code:
+-  # HasNoValue(ColumnName):
+-  - <img width="412" height="190" alt="image" src="https://github.com/user-attachments/assets/feabba8a-d1d0-4778-80ec-7129f2d5a74d" />
+- <img width="739" height="615" alt="image" src="https://github.com/user-attachments/assets/55bbf06f-6bda-4e37-8fe1-71ac363fd4ca" />
+
+# Ex: Growth rate (YOY- MOM):
+- We have this table:
+- <img width="1453" height="563" alt="image" src="https://github.com/user-attachments/assets/db6d21db-9530-4b14-a76f-9f0daac3ce36" />
+- 1) Now create a table that shows the ratio of each month's growth rate to the previous month (as Percentage format). 
+  - Formula is ⇒ (current Sale - previous month sale) /  previous month sale
+  - <img width="599" height="111" alt="image" src="https://github.com/user-attachments/assets/9b0d9b7d-1220-4dac-a96b-d5eb20c61844" />
+- 2) create a Slicer for number 1 to 24:
+  - If I select number 2 ⇒growth rate of ( this month - 2 month previous)
+  - If 6 ⇒growth rate of ( this month - 6 month previous)
+- 3) if there is positive growth /negative growth / nothing ⇒ shows icon:
+     - <img width="1352" height="742" alt="image" src="https://github.com/user-attachments/assets/c1f1d2a8-00a4-47c7-89f0-8eed607ccfb7" />
+     - <img width="863" height="623" alt="image" src="https://github.com/user-attachments/assets/1912c047-7a6a-4133-aa8c-f94bf4c170bf" />
+ - For answer we can use Date functions like:
+ - <img width="606" height="175" alt="image" src="https://github.com/user-attachments/assets/e4502c6d-40fe-40cf-9722-88f75f29c016" />
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
 
 
 
