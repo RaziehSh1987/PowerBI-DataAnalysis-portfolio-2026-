@@ -42,6 +42,38 @@ https://youtu.be/0WauCkI1O9k?si=pweJDszTx9CLibvP
 - Returns all the rows in a table, or all the values in a column, ignoring any filters that might have been applied inside the query, but keeping filters that come from outside.
 - <img width="784" height="485" alt="image" src="https://github.com/user-attachments/assets/f536b120-e6f4-4475-be91-b5e6419131f7" />
 
+# DAX Variable:
+- Make Measure > using Var for define variable > using Return >  and final formula to return output, like:
+- <img width="232" height="154" alt="image" src="https://github.com/user-attachments/assets/ad0e92bd-a362-429a-be5f-de70895ea4ef" />
+- <img width="775" height="480" alt="image" src="https://github.com/user-attachments/assets/4e69e448-ec28-4db8-9f95-9bdf1f7ab547" />
+- <img width="642" height="666" alt="image" src="https://github.com/user-attachments/assets/54aec90f-f95a-4a89-8833-9a76ee06fdd5" />
+- <img width="599" height="632" alt="image" src="https://github.com/user-attachments/assets/38b65113-7d39-4f35-8d36-916330b43855" />
+- <img width="644" height="340" alt="image" src="https://github.com/user-attachments/assets/e8223270-b96b-4bcc-9af3-98bb843fb4f8" />
+- # Calculate only change Expression , not values
+- <img width="629" height="357" alt="image" src="https://github.com/user-attachments/assets/6b67e273-c2e1-4c8b-890a-fd4c5a479181" />
+- <img width="629" height="427" alt="image" src="https://github.com/user-attachments/assets/e86635b7-f64c-4d49-bac4-133cb3ba2da8" />
+- # Return:
+- <img width="616" height="453" alt="image" src="https://github.com/user-attachments/assets/c609866a-f65d-4f7f-afc0-91b01c71768c" />
+- <img width="630" height="399" alt="image" src="https://github.com/user-attachments/assets/3399ce6b-a074-4f86-a8fc-67fd62e6d0d6" />
+
+# GenerateSeries(from,to,step) using DAX:
+
+
+
+
+
+
+
+
+
+
+
+- 
+
+
+
+
+
 
 
 
