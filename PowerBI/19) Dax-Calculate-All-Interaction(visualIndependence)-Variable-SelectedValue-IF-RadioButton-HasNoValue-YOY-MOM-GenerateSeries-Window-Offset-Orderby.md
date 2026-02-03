@@ -1,4 +1,4 @@
-# Session 19)  - Dax-Calculate-LeftToRight-All(= remove filter)-Edit Interaction(visual Independence)-Variable-SelectedValue-IF-RadioButton-HasNoValue-YOY-MOM-GenerateSeries
+# Session 19)  - Dax-Calculate-LeftToRight-All(= remove filter)-Edit Interaction(visual Independence)-Variable-SelectedValue-IF-RadioButton-HasNoValue-YOY-MOM-GenerateSeries-Window-offset-orderby
 https://youtu.be/0WauCkI1O9k?si=pweJDszTx9CLibvP
 
 # Calculate:
@@ -81,6 +81,147 @@ https://youtu.be/0WauCkI1O9k?si=pweJDszTx9CLibvP
 -  # HasNoValue(ColumnName):
 -  - <img width="412" height="190" alt="image" src="https://github.com/user-attachments/assets/feabba8a-d1d0-4778-80ec-7129f2d5a74d" />
 - <img width="739" height="615" alt="image" src="https://github.com/user-attachments/assets/55bbf06f-6bda-4e37-8fe1-71ac363fd4ca" />
+
+# Understanding OFFSET, WINDOW, and ORDERBY in DAX (Simple Explanation)
+
+This short guide explains **OFFSET**, **WINDOW**, and **ORDERBY** in DAX using a very simple and practical example.
+
+---
+
+## 1. Think of Time as a Line
+
+Imagine months arranged in a straight line:
+
+```
+
+Jan → Feb → Mar → Apr → May
+
+```
+
+You are currently on **March**.
+
+---
+
+## 2. What does ORDERBY do?
+
+`ORDERBY` tells DAX **how to arrange the data before moving around**.
+
+Without ordering, the months could look like this:
+
+```
+
+Mar → Jan → May → Feb → Apr   ❌
+
+````
+
+In this case, the idea of “previous” or “next” does not make sense.
+
+### Example:
+```DAX
+ORDERBY ( 'Date'[Month], ASC )
+````
+
+This ensures the months are ordered correctly:
+
+```
+Jan → Feb → Mar → Apr → May
+```
+
+---
+
+## 3. What does OFFSET do?
+
+`OFFSET` moves **forward or backward** from the current position.
+
+### Example:
+
+```DAX
+OFFSET ( -1 )
+```
+
+Means:
+
+> “Move one step back.”
+
+So:
+
+* March → February
+* April → March
+
+This is commonly used for:
+
+* Previous month
+* Next month
+* Period-over-period comparison
+
+---
+
+## 4. What does WINDOW do?
+
+Instead of moving one step, `WINDOW` looks at a **group of steps**.
+
+### Example:
+
+```DAX
+WINDOW ( -2, 0 )
+```
+
+Means:
+
+> “Look at the current period and the two periods before it.”
+
+So for **March**, the window includes:
+
+```
+Jan, Feb, Mar
+```
+
+This is useful for:
+
+* Rolling averages
+* Rolling totals
+* Trend analysis
+
+---
+
+## 5. Why are ORDERBY, OFFSET, and WINDOW used together?
+
+They work as a team:
+
+* **ORDERBY** → puts data in the correct sequence
+* **OFFSET** → moves to a specific previous or next item
+* **WINDOW** → works with a range of items
+
+Together, they enable clean and modern time-based calculations in DAX.
+
+---
+
+## 6. Simple Real-Life Example
+
+If today is **Wednesday**:
+
+* `ORDERBY` → Monday, Tuesday, Wednesday
+* `OFFSET(-1)` → Tuesday (yesterday)
+* `WINDOW(-2,0)` → Monday, Tuesday, Wednesday
+
+---
+
+## Summary
+
+* **ORDERBY** = Arrange items in the correct order
+* **OFFSET** = Move to a nearby item
+* **WINDOW** = Work with a range of items
+
+These functions make DAX calculations clearer, more reliable, and easier to maintain.
+
+```
+
+If you want, I can also:
+- Add **code examples for real Power BI reports**
+- Create a **README-ready version**
+- Add **diagrams (ASCII or images)**
+```
+
 
 # Ex: Growth rate (YOY- MOM):
 - We have this table:
