@@ -253,6 +253,8 @@ For Calender table and sale table:
 <img width="956" height="578" alt="image" src="https://github.com/user-attachments/assets/21421c59-8841-40e7-bd06-646a206feb55" />
 3-  use Matrix visual:
 <img width="1003" height="580" alt="image" src="https://github.com/user-attachments/assets/0c11321a-72c3-4924-bdc9-ddf21331505d" />
+- Create a  new table (measure) of number to move between months:
+<img width="818" height="86" alt="image" src="https://github.com/user-attachments/assets/e4d57dad-3fc7-49e6-b218-3eeb44d92e91" />
 - Create a principle Measure to calculate Growth rath monthly as MOM-Growth_Rate and add to column of visual:
 - <img width="920" height="708" alt="image" src="https://github.com/user-attachments/assets/2a930fb5-03b2-41e6-9765-df99db64172a" />
 4- also we have to create slicer that can filter the visual:
