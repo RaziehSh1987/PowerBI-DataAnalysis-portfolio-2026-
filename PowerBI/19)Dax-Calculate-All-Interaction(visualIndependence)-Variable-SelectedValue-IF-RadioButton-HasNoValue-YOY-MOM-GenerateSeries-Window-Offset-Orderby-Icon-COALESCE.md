@@ -1,4 +1,4 @@
-# Session 19)  - Dax-Calculate-LeftToRight-All(= remove filter)-Edit Interaction(visual Independence)-Variable-SelectedValue-IF-RadioButton-HasNoValue-YOY-MOM-GenerateSeries-Window-offset-orderby
+# Session 19) Dax-Calculate-All-Interaction(visualIndependence)-Variable-SelectedValue-IF-RadioButton-HasNoValue-YOY-MOM-GenerateSeries-Window-Offset-Orderby-Icon-COALESCE(DefaultValue)
 https://youtu.be/0WauCkI1O9k?si=pweJDszTx9CLibvP
 
 # Calculate:
@@ -221,6 +221,8 @@ If you want, I can also:
 - Create a **README-ready version**
 - Add **diagrams (ASCII or images)**
 ```
+# COALESCE(...,1) ensures your slicer has a default.
+<img width="630" height="87" alt="image" src="https://github.com/user-attachments/assets/65130354-b6fc-4aa1-af05-50684f59895a" />
 
 
 # Ex: Growth rate (YOY- MOM):
@@ -237,7 +239,48 @@ If you want, I can also:
      - <img width="863" height="623" alt="image" src="https://github.com/user-attachments/assets/1912c047-7a6a-4133-aa8c-f94bf4c170bf" />
  - For answer we can use Date functions like:
  - <img width="606" height="175" alt="image" src="https://github.com/user-attachments/assets/e4502c6d-40fe-40cf-9722-88f75f29c016" />
-     
+
+# Answer:
+- If we can’t see year column data in Matrix visual ⇒ we can create a measure and write a DAX code to All(year,month) ⇒ remove filter on year and month:
+- <img width="1226" height="527" alt="image" src="https://github.com/user-attachments/assets/9ee10943-6979-42be-a195-0ee48e65e9f0" />
+
+1- create relation between Calender_table and Sale_table > make sure that 2 Date column are in the same format (text or number and the same date format) > other vise make them the same by creating a DAX code like:
+	-  create a new  Column > write DAX code: 
+For Calender table and sale table:
+<img width="787" height="152" alt="image" src="https://github.com/user-attachments/assets/28541836-4fc8-4226-9814-ec1119691a4a" />
+
+2- make relation between these 2 table with these 2 columns
+<img width="956" height="578" alt="image" src="https://github.com/user-attachments/assets/21421c59-8841-40e7-bd06-646a206feb55" />
+3-  use Matrix visual:
+<img width="1003" height="580" alt="image" src="https://github.com/user-attachments/assets/0c11321a-72c3-4924-bdc9-ddf21331505d" />
+- Create a principle Measure to calculate Growth rath monthly as MOM-Growth_Rate and add to column of visual:
+- <img width="920" height="708" alt="image" src="https://github.com/user-attachments/assets/2a930fb5-03b2-41e6-9765-df99db64172a" />
+4- also we have to create slicer that can filter the visual:
+- Create a new column (measure):
+- <img width="923" height="191" alt="image" src="https://github.com/user-attachments/assets/12c0dc55-a5dc-4ee4-bb32-3b4abbb6daa6" />
+<img width="942" height="695" alt="image" src="https://github.com/user-attachments/assets/8c3c93d5-bd50-47e8-aaf8-bc59e166019e" />
+5- assign Icons to visual for MOM-Growth-Rate:
+- Define icons for growth rate visual:
+    - Visualization pane >format visual > Cell Element:
+      <img width="355" height="720" alt="image" src="https://github.com/user-attachments/assets/c4f0d3c2-5b7d-44e3-8e9a-7e5401174a4c" />
+      <img width="900" height="633" alt="image" src="https://github.com/user-attachments/assets/c922d2f1-f88e-4401-a69e-38b318140230" />
+  - So, The Result is:
+<img width="797" height="562" alt="image" src="https://github.com/user-attachments/assets/18165a1a-eb2f-44f0-bfc2-b2ad80b746e0" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
