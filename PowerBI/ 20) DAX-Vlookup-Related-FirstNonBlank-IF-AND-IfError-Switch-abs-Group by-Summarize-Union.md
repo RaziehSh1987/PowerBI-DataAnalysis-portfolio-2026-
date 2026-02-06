@@ -1,4 +1,5 @@
-Session 20) DAX & Functions( Vlookup,Related,FirstNonBlank,IF,AND,IfError,Switch,Group by,Summeraze)
+# Session 20) DAX & Functions(Vlookup-Related-FirstNonBlank-IF-AND-IfError-Switch-abs-Group by-Summarize-Union)
+
 https://youtu.be/fRcSuM9QtFg?si=dzV2KsmFn5liDNqn
 
 #  LookupValue:
@@ -198,6 +199,45 @@ It is commonly used to prevent visuals from showing errors such as division by z
   <img width="1158" height="579" alt="image" src="https://github.com/user-attachments/assets/a41bbb1d-489e-4b0b-bcb8-afda7c96dffd" />
 - Now,create a new measure to find first QTR (month) that has max sale:
 <img width="1607" height="435" alt="image" src="https://github.com/user-attachments/assets/700fee8d-bcda-4345-bed7-7552ddca3368" />
+
+# Switch:
+- New Column>
+- When we want write a condition to:
+- ## check the equality with something ⇒ we use only Switch
+- <img width="768" height="204" alt="image" src="https://github.com/user-attachments/assets/52285534-ed45-4212-9c37-d8bb82833fdc" />
+- In Month table ⇒ if month=1 then print January ,if equal to 2 print Feb…
+- ## To implement IF/ ElSE ⇒
+- we can use Switch(True(),column_name,condition, result,..) 
+- In Power BI (DAX), when you want to evaluate range / greater-than conditions, the correct and standard pattern is:
+- <img width="981" height="753" alt="image" src="https://github.com/user-attachments/assets/42c1d4b7-3d86-4b8c-9709-f00f18c5da60" />
+- Ex:
+- <img width="525" height="842" alt="image" src="https://github.com/user-attachments/assets/ad18f968-4640-42b9-bfe1-1ed0dd7461a6" />
+
+#  ABS ⇒ Absolute Value 
+- convert negative number to positive 
+- <img width="494" height="693" alt="image" src="https://github.com/user-attachments/assets/52c27f50-44d9-47a4-9d76-b638225ebd5c" />
+
+# Groupby / Summarize:
+- <img width="577" height="229" alt="image" src="https://github.com/user-attachments/assets/339b4547-ce00-4f68-bf61-b7f0bf89413f" />
+- In DAX, if we want doing Groupby ⇒
+    - ## we have to use Summarize ( not Groupby):
+- <img width="977" height="731" alt="image" src="https://github.com/user-attachments/assets/6035e452-5647-4b90-9560-e71c9db92869" />
+
+# Union: 
+- Union in DAX = Append in power query
+- <img width="421" height="796" alt="image" src="https://github.com/user-attachments/assets/81361f9c-5c25-4b4b-b5f9-38e48708a48d" />
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
