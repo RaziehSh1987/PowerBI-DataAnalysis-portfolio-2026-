@@ -1,4 +1,5 @@
-# Session 22) AccessPermissionLogic-Publish-permisionForReport-PermisionForSite-adminMonitoring
+# Session 22) AccessPermissionLogic-Publish-permisionForReport-PermisionForSite-adminMonitoring-RowLevelSecurity(Permision)-DefineRole-QuickMEasure
+
 https://youtu.be/cjHC4eLO_cQ?si=MGPx5BaSnKYYrJER
 
 # Access permission logic:
@@ -67,5 +68,43 @@ There are 2 ways:
   - <img width="726" height="52" alt="image" src="https://github.com/user-attachments/assets/ecaa2578-6bc6-466c-b6f4-4bc689373cc4" />
   - <img width="753" height="152" alt="image" src="https://github.com/user-attachments/assets/b76e0fd2-641c-4d75-9ea7-f1106ab91d8a" />
   - Then we have to find this dashboard (Pbix file)and download and use that for monitoring
-https://youtu.be/cjHC4eLO_cQ?si=5q2W6dZkx54J_wJC
+
+# Row level security (RLS):
+<img width="782" height="378" alt="image" src="https://github.com/user-attachments/assets/34318955-a272-428b-bdd6-cbd6b09dfb33" />
+- define different Level of  access to different user
+- in default, this menu id disable⇒ we have to create different Role  in PowerBI :
+- Modeling >
+-  ## manage Role
+- <img width="796" height="175" alt="image" src="https://github.com/user-attachments/assets/e02c88ce-a1a8-4a78-91f4-47615a318748" />
+<img width="788" height="467" alt="image" src="https://github.com/user-attachments/assets/79e9373d-57b9-4ca8-bcc5-8d62664b584e" />
+- For example this is old version but this say ⇒ company B only see the Sales from Company A (R.K on table>Filter):
+- Then click on <img width="274" height="126" alt="image" src="https://github.com/user-attachments/assets/ac6ca118-c784-4421-b503-1e3317f866ee" /> > Save
+- Then publish again our dashboard to ReportServer > R.K on the dashboard name > manage > Row Level Security.
+- now, if we open Report server ⇒ it doesn’t show us any dashboards , because we didn’t define Role for us:
+- <img width="797" height="303" alt="image" src="https://github.com/user-attachments/assets/f28fbff7-76fe-41d1-b96f-cc8f798e1e0c" />
+-  that’s a time to define Role in Report Server:
+-  R.K on folder that contains our dashboard> manage > Row-Level-Security :
+-  <img width="682" height="403" alt="image" src="https://github.com/user-attachments/assets/3b5ed0f2-15c6-487f-b210-68ffed1ff08a" />
+- Add Member > write our ID or name and select their Role:
+- <img width="776" height="413" alt="image" src="https://github.com/user-attachments/assets/96fac4a0-3536-408c-853b-229ea9bd2c16" />
+- Like:
+- <img width="565" height="312" alt="image" src="https://github.com/user-attachments/assets/dc178a17-1f98-4229-869e-71e10443e2e7" />
+- Khoobani is subset of Company A , and each access tat company has ,Khobani also has.
+- <img width="656" height="95" alt="image" src="https://github.com/user-attachments/assets/10b22881-782a-49e6-8fe9-2950570227b1" />
+<img width="767" height="490" alt="image" src="https://github.com/user-attachments/assets/3b5d2125-d184-4756-9a58-bf1ddc817923" />
+
+- ## With View As ⇒
+- we can see the the result of access for each role in powerbi:
+- <img width="814" height="194" alt="image" src="https://github.com/user-attachments/assets/6310f986-f012-4c3c-bce6-a8d4f8785abb" />
+<img width="415" height="416" alt="image" src="https://github.com/user-attachments/assets/9e808537-6ac1-4f4a-8c9e-301f67bc3002" />
+
+# Quick Measure:
+<img width="603" height="257" alt="image" src="https://github.com/user-attachments/assets/322ed065-fef2-45ba-9919-cf2227d0f023" />
+- Select  a predefined measure:
+- <img width="570" height="797" alt="image" src="https://github.com/user-attachments/assets/a3866b6f-6a49-49ab-b236-7da8ff399374" />
+- ex:
+- <img width="791" height="822" alt="image" src="https://github.com/user-attachments/assets/019b24e3-80f6-46b3-8ffa-52d2eb420f28" />
+- For example we create a quick measure on Base Value= CountPro column and doesn’t filter based on Category=Customer Name
+
+
 
